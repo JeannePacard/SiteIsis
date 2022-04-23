@@ -1,0 +1,188 @@
+html {
+  font-family: "Poppins", sans-serif;
+  background-color: #171717;
+  color: #f4f2e6;
+  cursor: url(/img/bubulle-ConvertImage.png) 2 2, auto;
+}
+
+/* FONT */
+
+@font-face {
+  font-family: Kabal;
+  src: url("/font/Kabal-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-black;
+  src: url("/font/Poppins-Black.ttf");
+}
+
+@font-face {
+  font-family: Poppins-light;
+  src: url("/font/Poppins-Light.ttf");
+}
+
+/* HEADER */
+
+.header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search {
+  width: 3%;
+  height: 3%;
+  margin-left: 2%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.logo {
+  width: 30%;
+  margin-left: 17%;
+  margin-top: 1%;
+}
+
+/* BUTTON SHOP */
+
+.shop-button {
+  text-decoration: none;
+  color: #f4f2e6;
+  background-color: #171717;
+  font-weight: 800;
+  font-size: 1.5vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 2%;
+  padding: 1% 2.5% 1% 2.5%;
+  border: #f4f2e6 1px solid;
+}
+
+.shop-button-under {
+  position: absolute;
+  z-index: -2;
+  margin-left: 89.5%;
+  display: block;
+  content: "";
+  width: 9vw;
+  height: 3.6vw;
+  background-color: #f4f2e6;
+  margin-top: 2.5%;
+}
+
+.shop-button-under-active {
+  position: absolute;
+  z-index: -2;
+  margin-left: 89.5%;
+  display: block;
+  content: "";
+  width: 9vw;
+  height: 3.6vw;
+  background-color: #f0c300;
+  margin-top: 2.5%;
+}
+
+/* MENU */
+
+.header-links {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+
+.header-links li {
+  display: inline;
+  list-style: none;
+}
+
+.header-links li a {
+  display: inline-block;
+}
+
+.women,
+.vulgarisation {
+  text-decoration: none;
+  color: #f4f2e6;
+}
+
+.noactive {
+  padding: 1.2% 1.5%;
+}
+
+.active {
+  color: #171717;
+  background-color: #f4f2e6;
+  padding: 1.2% 1.5%;
+}
+
+.header-line {
+  display: block;
+  content: "";
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2px;
+  background-color: #f4f2e6;
+}
+
+.margin-top {
+  margin-top: 1%;
+}
+
+/* FOOTER */
+
+.footer {
+  font-size: 1.2vw;
+  margin-top: 4%;
+}
+
+.footer-line {
+  display: block;
+  content: "";
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+  background-color: #f4f2e6;
+}
+
+.display ul {
+  margin-top: 2%;
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.display ul li {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.display ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f4f2e6;
+}
+
+.display ul li a:hover {
+  font-weight: 800;
+}
+
+.copyright {
+  font-size: 1vw;
+  opacity: 0.7;
+  margin-top: 1.5%;
+  margin-bottom: 2%;
+  text-align: center;
+  color: #f4f2e6;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: #f4f2e6;
+}
