@@ -1,20 +1,25 @@
-const click = document.querySelectorAll(".femmes-button");
-const img = document.querySelectorAll(".femmes-img");
-const supp = document.querySelectorAll(".femmes-left");
-const supp2 = document.querySelectorAll(".femmes-right");
-const supp3 = document.querySelectorAll(".background");
-const supp4 = document.querySelectorAll(".femmes-button");
-const under = document.querySelectorAll(".second-etap");
+const allWomens = document.querySelectorAll(".femmes-button");
 
-click.forEach(function (click) {
-  click.addEventListener("click", function () {
-    supp.style.display = "none";
-    supp2.style.display = "none";
-    supp3.style.display = "none";
-    supp4.style.display = "none";
-    img.style.display = "block";
-    under.style.display = "block";
-    img.style.transform = "translateX(6vw)";
-    img.style.transitionDuration = "1s";
+const mainImage = document.querySelectorAll(".femmes-img");
+const leftSection = document.querySelectorAll(".femmes-left");
+const rightSection = document.querySelectorAll(".femmes-right");
+const background = document.querySelectorAll(".background");
+const button = document.querySelectorAll(".femmes-button");
+const under = document.querySelectorAll(".second-step");
+
+function displayWomenInfos() {
+  return allWomens.forEach((women, index) => {
+    women.addEventListener("click", () => {
+      mainImage[index].classList.toggle("move");
+      mainImage[index].style.transform = "translateX(30%)";
+
+      leftSection[index].style.display = "none";
+      rightSection[index].style.display = "none";
+      background[index].style.display = "none";
+      button[index].style.display = "none";
+      under[index].classList.toggle("open");
+    });
   });
-});
+}
+
+displayWomenInfos();
