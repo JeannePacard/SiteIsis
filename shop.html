@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/global.css" />
     <link rel="stylesheet" type="text/css" href="css/css-shop.css" />
+    <link rel="stylesheet" type="text/css" href="css/shop-connection.css" />
     <title>Shop</title>
   </head>
   <body onload="init()">
@@ -90,7 +91,7 @@
             <br />
             Degré d’alcool : 6.3%
           </p>
-          <a class="buy-button" href="#">AJOUTER AU PANIER</a>
+          <a class="buy-button" href="shop-pannier.html">VOIR LE PANIER</a>
         </div>
         <div class="beer-right">
           <img src="img/brune_gb.png" />
@@ -99,9 +100,9 @@
 
       <div class="second-beer">
         <div class="beer-left">
-          <h1 class="title">XXXX.</h1>
+          <h1 class="title">ÉPICE.</h1>
           <p class="text">
-            La XXXX. est une variante de notre PUISSANTE.. Elle défend nos
+            La ÉPICE. est une variante de notre PUISSANTE.. Elle défend nos
             valeurs féministes.
             <br /><br />
             C’est une IPA blonde avec un gout épicée mais également très fruité.
@@ -110,7 +111,7 @@
             <br />
             Degré d’alcool : 6.3%
           </p>
-          <a class="buy-button" href="#">AJOUTER AU PANIER</a>
+          <a class="buy-button" href="shop-pannier.html">VOIR LE PANIER</a>
         </div>
         <div class="beer-right">
           <img src="img/blonde_épicé.png" />
@@ -129,14 +130,43 @@
             <br />
             Degré d’alcool : 6.3%
           </p>
-          <a class="buy-button" href="#">AJOUTER AU PANIER</a>
+          <a class="buy-button" href="shop-pannier.html">VOIR LE PANIER</a>
         </div>
         <div class="beer-right">
           <img src="img/ambrée_biscuit.png" />
         </div>
       </div>
     </div>
-    <!-- VOTRE CODE ICI -->
+
+    <div class="connection-user">
+      <div class="user-button" onclick="openconnection()">
+        <img
+          src="img/user.png"
+          alt="Button pour se connecter"
+          class="user-img"
+        />
+      </div>
+
+      <div class="user-popup">
+        <div class="user-popup-container">
+          <form action="test_bd.php" method="post">
+            Nom: <input type="text" name="nom" size="25" /><br />
+            Prenom: <input type="text" name="prenom" size="25" /><br />
+            Mail: <input type="text" name="mail" size="40" /><br />
+            Numéro de Téléphone: <input type="text" name="n_phone" /><br />
+            Date de Naissance:
+            <input type="number" name="b_j" min="1" max="31" /><input
+              type="number"
+              name="b_m"
+              min="1"
+              max="12"
+            /><input type="number" name="b_a" min="1910" max="2022" /><br />
+            Adresse: <textarea name="addr" rows="6" cols="30"></textarea><br />
+            <input type="Submit" class="user-connection-button" />
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 
   <footer class="footer">
