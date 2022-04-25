@@ -1,6 +1,8 @@
 const firstbeer = document.querySelector(".first-beer");
 const secondbeer = document.querySelector(".second-beer");
 const thirdbeer = document.querySelector(".third-beer");
+const popup = document.querySelector(".user-popup");
+
 
 function init() {
   firstbeer.style.display = "block";
