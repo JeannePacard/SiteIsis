@@ -31,3 +31,12 @@ function third() {
     thirdbeer.style.display = "block";
   }
 }
+
+
+function openconnection() {
+  if (popup.style.display == "none") {
+    popup.style.display = "block";
+  } else {
+    popup.style.display = "none";
+  }
+}
