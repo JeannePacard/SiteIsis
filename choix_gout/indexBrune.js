@@ -434,7 +434,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-		window.open('/Reproduction/brune/indexOrange.html', '_self');
+		window.open('/choix_gout/Reproduction/brune/indexOrange.html', '_self');
 		});
 	}
 	this.frame_32 = function() {
@@ -452,7 +452,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-		window.open('/Reproduction/brune/indexAgrume.html', '_self');
+		window.open('/choix_gout/Reproduction/brune/indexAgrume.html', '_self');
 		});
 		var _this = this;
 		/*
@@ -492,7 +492,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-		window.open('/Reproduction/brune/indexOrange.html', '_self');
+		window.open('/choix_gout/Reproduction/brune/indexOrange.html', '_self');
 		});
 	}
 

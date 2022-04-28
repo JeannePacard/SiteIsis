@@ -1077,7 +1077,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-		window.open('/Reproduction/brune/concassage/indexConcassage.html', '_self');
+		window.open('/concassage/indexConcassage.html', '_self');
 		});
 	}
 

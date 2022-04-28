@@ -545,7 +545,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-		window.open('/Reproduction/ambree/indexCaramel.html', '_self');
+		window.open('/choix_gout/Reproduction/ambree/indexCaramel.html', '_self');
 		});
 	}
 	this.frame_33 = function() {
@@ -574,7 +574,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-		window.open('/Reproduction/ambree/indexThe.html', '_self');
+		window.open('/choix_gout/Reproduction/ambree/indexThe.html', '_self');
 		});
 	}
 	this.frame_46 = function() {
@@ -606,7 +606,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-		window.open('/Reproduction/ambree/indexCaramel.html', '_self');
+		window.open('/choix_gout/Reproduction/ambree/indexCaramel.html', '_self');
 		});
 	}
 
