@@ -417,7 +417,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-		window.open('/choix_gout/Reproduction/blonde/indexEpice.html', '_self');
+		window.open('SiteIsis/choix_gout/Reproduction/blonde/indexEpice.html', '_self');
 		});
 		var _this = this;
 		/*
@@ -457,7 +457,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-		window.open('/choix_gout/Reproduction/blonde/indexFruit.html', '_self');
+		window.open('SiteIsis/choix_gout/Reproduction/blonde/indexFruit.html', '_self');
 		});
 	}
 	this.frame_58 = function() {
@@ -475,7 +475,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-		window.open('/choix_gout/Reproduction/blonde/indexEpice.html', '_self');
+		window.open('SiteIsis/choix_gout/Reproduction/blonde/indexEpice.html', '_self');
 		});
 	}
 
