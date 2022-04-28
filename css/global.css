@@ -27,6 +27,21 @@ html {
   src: url("../font/Poppins-Light.ttf");
 }
 
+@font-face {
+  font-family: Poppins-bold;
+  src: url("../font/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-semibold;
+  src: url("../font/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-medium;
+  src: url("../font/Poppins-Medium.ttf");
+}
+
 /* HEADER */
 
 .header-top {
