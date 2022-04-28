@@ -1077,7 +1077,7 @@ if (reversed == null) { reversed = false; }
 		/*
 		Charge l’URL dans une nouvelle fenêtre du navigateur.
 		*/
-		window.open('/concassage/indexConcassage.html', '_self');
+		window.open('SiteIsis/choix_gout/Reproduction/brune/concassage/indexConcassage.html', '_self');
 		});
 	}
 
